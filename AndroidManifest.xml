@@ -1,6 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-        package="com.android.settings"
-        android:sharedUserId="android.uid.system">
+          xmlns:pluto="http://www.w3.org/2001/pluto.html"
+          package="com.android.settings"
+          android:sharedUserId="android.uid.system">
 
     <original-package android:name="com.android.settings" />
 
@@ -43,7 +44,8 @@
 
     <application android:label="@string/settings_label"
             android:icon="@drawable/ic_launcher_settings"
-            android:taskAffinity="">
+            android:taskAffinity=""
+            pluto:isThemeable="true">
 
         <!-- Settings -->
 

@@ -78,8 +78,9 @@
         <item name="android:textStyle">normal</item>
     </style>
 
-    <style name="TallTitleBarTheme" parent="android:Theme.NoTitleBar">
+    <style name="TallTitleBarTheme">
         <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
     </style>
     
 </resources>
